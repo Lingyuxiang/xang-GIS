@@ -1,0 +1,8 @@
+{
+    "region":{
+        "serviceUrl":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_REGION/MapServer",
+        "returnField": "",
+        "topicID":"GDHK_SD_REGION"
+    }
+    
+}

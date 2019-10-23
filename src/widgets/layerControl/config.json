@@ -1,0 +1,55 @@
+{
+    "treeData": [
+        {
+            "title": "一级2",
+            "id": 2,
+            "spread": true,
+            "children": [
+                {
+                    "title": "二级2-1",
+                    "id": 5
+                },
+                {
+                    "title": "二级2-2",
+                    "id": 6,
+                    "checked": true
+                }
+            ]
+        },
+        {
+            "title": "一级3",
+            "id": 16,
+            "children": [
+                {
+                    "title": "二级3-1",
+                    "id": 17,
+                    "fixed": true,
+                    "children": [
+                        {
+                            "title": "三级3-1-1",
+                            "id": 18
+                        },
+                        {
+                            "title": "三级3-1-2",
+                            "id": 19
+                        }
+                    ]
+                },
+                {
+                    "title": "二级3-2",
+                    "id": 27,
+                    "children": [
+                        {
+                            "title": "三级3-2-1",
+                            "id": 28
+                        },
+                        {
+                            "title": "三级3-2-2",
+                            "id": 29
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

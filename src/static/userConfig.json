@@ -1,0 +1,223 @@
+{
+    "userID": "1",
+    "userType": "normal",
+    "map":{
+        "mapDiv":"map",
+        "basemaps" : [{
+            "guid":"00",
+            "type":"tiled",
+            "name":"底图",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services/HK_DATA/HK_MAP/MapServer",
+            "visible": true
+            }],
+        "geometryService": {
+            "type": "geometry",
+            "name": "几何服务",
+            "url": "http://10.13.1.2:6080/arcgis/rest/services/Utilities/Geometry/GeometryServer"
+        },
+        "operationallayers": [
+            {
+                "guid":"HK_MAP",
+                "type":"dynamic",
+                "name":"底图服务",
+                "url":"http://10.13.1.2:6080/arcgis/rest/services/HK_DATA/HK_MAP/MapServer",
+                "visible": true,
+                "controlLay": [4]
+            },
+            {
+                "guid":"GDHK_SD_F_PIPELINE",
+                "type":"dynamic",
+                "name":"淡水管线地图服务",
+                "url":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_F_PIPELINE/MapServer",
+                "visible": true,
+                "controlLay": "*"
+            },
+            {
+                "guid":"GDHK_SD_F_FEATURE",
+                "type":"dynamic",
+                "name":"淡水资产地图服务",
+                "url":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_F_FEATURE/MapServer",
+                "visible": true,
+                "controlLay": "*"
+            },
+            {
+                "guid":"GDHK_SD_R_PIPELINE",
+                "type":"dynamic",
+                "name":"原水管线地图服务",
+                "url":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_R_PIPELINE/MapServer",
+                "visible": true,
+                "controlLay": "*"
+            },{
+                "guid":"GDHK_SD_R_FEATURE",
+                "type":"dynamic",
+                "name":"原水资产地图服务",
+                "url":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_R_FEATURE/MapServer",
+                "visible": true,
+                "controlLay": "*"
+            },{
+                "guid":"GDHK_SD_S_PIPELINE",
+                "type":"dynamic",
+                "name":"咸水管线资产地图服务",
+                "url":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_S_PIPELINE/MapServer",
+                "visible": true,
+                "controlLay": [0]
+            },{
+                "guid":"GDHK_SD_S_FEATURE",
+                "type":"dynamic",
+                "name":"咸水资产地图服务",
+                "url":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_S_FEATURE/MapServer",
+                "visible": true,
+                "controlLay": "*"
+            },{
+                "guid":"GDHK_SD_REGION",
+                "type":"dynamic",
+                "name":"Region地图服务",
+                "url":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_REGION/MapServer",
+                "visible": true,
+                "controlLay": "*"
+            },{
+                "guid":"GDHK_SD_SUB_REGION",
+                "type":"dynamic",
+                "name":"Sub_Region地图服务",
+                "url":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_SUB_REGION/MapServer",
+                "visible": true,
+                "controlLay": "*"
+            },{
+                "guid":"GDHK_SD_DC",
+                "type":"dynamic",
+                "name":"DC地图服务",
+                "url":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_DC/MapServer",
+                "visible": true,
+                "controlLay": "*"
+            },{
+                "guid":"GDHK_SD_DMA",
+                "type":"dynamic",
+                "name":"DMA地图服务",
+                "url":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_DMA/MapServer",
+                "visible": true,
+                "controlLay": "*"
+            },{
+                "guid":"GDHK_SD_SZ",
+                "type":"dynamic",
+                "name":"SZ地图服务",
+                "url":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_SZ/MapServer",
+                "visible": true,
+                "controlLay": "*"
+            },{
+                "guid":"GDHK_SD_S_SZ",
+                "type":"dynamic",
+                "name":"咸水SZ地图服务",
+                "url":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_S_SZ/MapServer",
+                "visible": true,
+                "controlLay": "*"
+            },{
+                "guid":"GDHK_SD_BURST_LEAK",
+                "type":"dynamic",
+                "name":"BURST LEAK地图服务",
+                "url":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_BURST_LEAK/MapServer",
+                "visible": true,
+                "controlLay": "*"
+            }
+        ],
+        "mapOptions": {
+            "logo":false,
+            "extent":{
+                "spatialReference": {"wkid":2326},
+                "xmax": 877949.141628796,
+                "xmin": 795963.7725440033,
+                "ymax": 848035.3020387726,
+                "ymin": 813665.3910436159
+            }
+        }
+    },
+    "widgets":[
+        {
+            "name": "searchBar",
+            "widgetPath": "widgets/searchBar/",
+            "id":"searchBarWidget",
+            "containerType": "mapDiv",
+            "position": {
+                "top":"1rem",
+                "left":"1rem",
+                "bottom":0,
+                "right":0,
+                "width": "27rem",
+                "height": "auto"
+            },
+            "param":"",
+            "hasConfig":true,
+            "hasStyle":true,
+            "hasUIFile":true
+        },{
+            "name": "toolbar",
+            "widgetPath": "widgets/toolBar/",
+            "id":"toolBarWidget",
+            "containerType": "mapDiv",
+            "position": {
+                "top":"1rem",
+                "right":0,
+                "bottom":0,
+                "left": "28.5rem",
+                "width": "auto",
+                "height": "auto"
+            },
+            "param":"",
+            "hasConfig":true,
+            "hasStyle":true,
+            "hasUIFile":true
+        },
+        {
+            "name": "layerControl",
+            "widgetPath": "widgets/layerControl/",
+            "id":"layerControlWidget",
+            "containerType": "mapDiv",
+            "position": {
+                "top":"1rem",
+                "left":"28.5rem",
+                "bottom":0,
+                "right":0,
+                "width": 0,
+                "height": 0,
+                "zIndex": 1
+            },
+            "param":"",
+            "hasConfig":true,
+            "hasStyle":true,
+            "hasUIFile":true
+        },
+        {
+            "name": "mapClear",
+            "widgetPath": "widgets/mapClear/",
+            "id":"mapClearWidget",
+            "containerType": "mapDiv",
+            "position": {
+                "top":"1rem",
+                "left":"30.7rem",
+                "bottom":0,
+                "right":0,
+                "width": 0,
+                "height": 0,
+                "zIndex": 1
+            },
+            "param":"",
+            "hasUIFile":true,
+            "hasStyle":true
+        },
+        {
+            "name": "zmFreshWater",
+            "widgetPath": "widgets/zmFreshWater/",
+            "id":"zmFreshWaterWidget",
+            "containerType": "mapDiv",
+            "position": {
+                "top": 0,
+                "left": 0,
+                "bottom":0,
+                "right":0,
+                "width": 0,
+                "height": 0,
+                "zIndex": 1
+            },
+            "hasConfig":true
+        }
+    ]
+}

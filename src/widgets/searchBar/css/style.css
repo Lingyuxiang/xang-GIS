@@ -1,0 +1,113 @@
+@import '../tableWidget/css/style.css'; 
+.searchBar-widget{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.searchBar-widget .layui-input{
+    height: 32.2px;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.searchBar-widget .searchWidget-input{
+    background: white;
+    border-radius: 2px 0 0 2px;
+    color: #999;
+}
+.searchBar-widget .searchWidget-form{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    height: 0;
+}
+.searchBar-widget .searchWidget-btn{
+    overflow: hidden;
+    background: #3193f5;
+    height: 32.2px;
+    width: 20%;
+    padding: 0;
+    text-align: center;
+    line-height: 32.2px;
+    border-radius: 0 3px 3px 0;
+}
+.searchBar-widget .searchWidget-searchBox{
+    flex: 1;
+    float: right;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    align-self: end;
+}
+.searchBar-widget .searchWidget-selectBox{
+    flex:1
+}
+.searchBar-widget .select-div{
+    display: flex;
+    line-height: 32.2px;
+    cursor: pointer;
+}
+.searchBar-widget .select-content{
+    flex: 1.5;
+    margin-right: 6px;
+    color: #999;
+}
+.searchBar-widget .select-icon{
+    width: 16px;
+    color: #999;
+}
+.searchBar-widget .select-tree{
+    display:none;
+    background: white;
+    margin-top: 5px;
+    border-radius: 2px;
+    padding: 4px 6px 4px 6px;
+}
+.searchBar-widget .layui-tree-iconClick{
+    display: none;
+}
+.searchBar-widget .searchWidget-searchBox .layui-table-view{
+    margin-top: 5px;
+}
+.searchBar-widget .search-result-box{
+    height: 32px;
+    line-height: 32px;
+    background: #ddd8d8;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.searchBar-widget .search-result-box .search-result-id{
+    text-align: center;
+    width: 20%;
+}
+.searchBar-widget .search-result .search-result-text{
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.searchBar-widget .search-result{
+    margin-top: 5px;
+}
+/* .searchBar-widget .search-button{
+    width: 70px;
+    height: 100%;
+    font-size: 21px;
+    background: #faa646;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32.2px;
+}
+.searchBar-widget input{
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-left: 8px;
+	border: solid 0.5px #ebebeb;
+}
+.searchBar-widget .search-button :hover{
+    cursor: pointer;
+} */

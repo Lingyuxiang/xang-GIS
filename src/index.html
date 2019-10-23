@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>港水</title>
+    <link rel="stylesheet" href="./css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../../layui/css/layui.css">
+    <script src="../../layui/layui.js"></script> 
+    <script src="./libs/polyfill.min.js"></script> 
+    <script src="../../js/sysConfig.js"></script> 
+    <script src="./init.js"></script> 
+</head>
+<style>
+    .loading{
+        font-size: 3rem !important;
+        position: absolute;
+        z-index: 999999;
+        background: white;
+        width: 50px;
+        height: 50px;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #mapDiv{
+        height:100%;
+        position: relative; 
+        overflow: hidden;
+    }
+    .home-icon{
+    	display: inline-block;
+    	width: 30px;
+    	height:30px;
+    	line-height: 30px;
+    	position: absolute;
+    	right: 20px;
+    	bottom:88px;
+    	z-index: 99;
+    	font-size: 16px;	   
+	    text-align: center;
+	    border: 1px solid #57585A;
+	    border-radius: 5px;
+	    color:#57585A;
+	    background-color: #fff;
+	    font-weight: bold;
+	    cursor: pointer;
+	    display: none;
+    }
+    .home-icon:hover{
+    	background-color: #e7e7e7;
+    }
+</style>
+<body>
+    <div id="mapDiv">
+        <span id="loadingIcon" class="iconfont layui-anim-rotate layui-anim-loop loading">&#xe66e</span>
+        <span id="initLevel" class="iconfont iconshouye home-icon"></span>
+    </div>
+</body>
+</html>

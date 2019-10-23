@@ -1,0 +1,17 @@
+{
+    "SZ":{
+        "serviceUrl":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_SZ/MapServer",
+        "returnField": "",
+        "topicID":"GDHK_SD_SZ"
+    },
+    "DC":{
+        "serviceUrl":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_DC/MapServer",
+        "returnField": "",
+        "topicID":"GDHK_SD_DC"
+    },
+    "DMA": {
+        "serviceUrl":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_DMA/MapServer",
+        "returnField": "",
+        "topicID":"GDHK_SD_DMA"
+    }
+}

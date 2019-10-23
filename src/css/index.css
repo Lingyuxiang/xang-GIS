@@ -1,0 +1,52 @@
+.esriSimpleSliderTL{
+    right: 20px;
+    bottom: 20px;
+    top: auto;
+    left: auto;
+}
+.textNotSelect{
+   -webkit-user-select:none;
+   -moz-user-select:none;
+   -ms-user-select:none;
+   user-select:none;
+}
+body .layui-laydate-footer{
+    height: 37px;
+    line-height: 13px;
+}
+body .layui-laydate-main{
+    width: 220px;
+}
+body .layui-laydate-header{
+    line-height: 12px;
+}
+body .layui-laydate-content td, .layui-laydate-content th{
+    width: 17px;
+    height: 19px;
+    padding: 2px;
+}
+body .layui-laydate-list>li{
+    height: 23px;
+    line-height: 23px;
+}
+body .laydate-footer-btns{
+    top: 5px;
+}
+body .layui-laydate-header{
+    padding: 10px 52px 5px;
+}
+body .layui-laydate{
+    font-size: 12px;
+}
+body .laydate-month-list>li{
+    margin: 10px 0;
+}
+body .laydate-time-list p{
+    line-height: 14px;
+}
+body .laydate-time-list ol{
+    height: 130px;
+}
+body .layui-laydate-range{
+    width: 444px;
+}

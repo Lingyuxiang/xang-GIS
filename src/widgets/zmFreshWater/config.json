@@ -1,0 +1,18 @@
+{
+    "FSZ":{
+        "serviceUrl":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_SZ/MapServer",
+        "returnField": "SUP_CODE",
+        "topicID":"GDHK_SD_SZ"
+    },
+    "SSZ":{
+        "serviceUrl":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_S_SZ/MapServer",
+        "returnField": "SUP_CODE",
+        "topicID":"GDHK_SD_S_SZ"
+    },
+    "DMA":{
+        "serviceUrl":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_DMA/MapServer",
+        "returnField": "NEW_NO",
+        "topicID":"GDHK_SD_DMA"
+    }
+    
+}

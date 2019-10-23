@@ -1,0 +1,10 @@
+.mapclear-widget .i-box{
+    width: 2rem;
+    text-align: center;
+}
+.mapclear-widget .layControl-icon{
+    line-height: 2rem;
+    font-size: 18px;
+    cursor: pointer;
+    color: #999;
+}

@@ -1,0 +1,173 @@
+{
+    "searchLayer":[
+        {
+            "id": "1",
+            "guid":"GDHK_SD_F_PIPELINE",
+            "type":"dynamic",
+            "name":"淡水管线",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_F_PIPELINE/MapServer",
+            "searchFields":["OBJECTID"],
+            "searchLayers": [0]
+        },
+        {
+            "id": "2",
+            "guid":"GDHK_SD_F_FEATURE",
+            "type":"dynamic",
+            "name":"淡水资产",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_F_FEATURE/MapServer",
+            "searchFields":[],
+            "searchLayers": []
+        },
+        {
+            "id": "3",
+            "guid":"GDHK_SD_R_PIPELINE",
+            "type":"dynamic",
+            "name":"原水管线",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_R_PIPELINE/MapServer",
+            "searchFields":["OBJECTID"],
+            "searchLayers": [0]
+        },{
+            "id": "4",
+            "guid":"GDHK_SD_R_FEATURE",
+            "type":"dynamic",
+            "name":"原水资产",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_R_FEATURE/MapServer",
+            "searchFields":[],
+            "searchLayers": []
+        },{
+            "id": "5",
+            "guid":"GDHK_SD_S_PIPELINE",
+            "type":"dynamic",
+            "name":"咸水管线资产",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_S_PIPELINE/MapServer",
+            "searchFields":[],
+            "searchLayers": []
+        },{
+            "id": "6",
+            "guid":"GDHK_SD_S_FEATURE",
+            "type":"dynamic",
+            "name":"咸水资产",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_S_FEATURE/MapServer",
+            "searchFields":[],
+            "searchLayers": []
+        },{
+            "id": "7",
+            "guid":"GDHK_SD_REGION",
+            "type":"dynamic",
+            "name":"Region",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_REGION/MapServer",
+            "searchFields":["OBJECTID"],
+            "searchLayers": [0]
+        },{
+            "id": "8",
+            "guid":"GDHK_SD_SUB_REGION",
+            "type":"dynamic",
+            "name":"Sub_Region",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_SUB_REGION/MapServer",
+            "searchFields":[],
+            "searchLayers": []
+        },{
+            "id": "9",
+            "guid":"GDHK_SD_DC",
+            "type":"dynamic",
+            "name":"DC",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_DC/MapServer",
+            "searchFields":[],
+            "searchLayers": []
+        },{
+            "id": "10",
+            "guid":"GDHK_SD_DMA",
+            "type":"dynamic",
+            "name":"DMA",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_DMA/MapServer",
+            "searchFields":[],
+            "searchLayers": []
+        },{
+            "id": "11",
+            "guid":"GDHK_SD_SZ",
+            "type":"dynamic",
+            "name":"SZ",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_SZ/MapServer",
+            "searchFields":[],
+            "searchLayers": []
+        },{
+            "id": "12",
+            "guid":"GDHK_SD_BURST_LEAK",
+            "type":"dynamic",
+            "name":"BURST LEAK",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_BURST_LEAK/MapServer",
+            "searchFields":["OBJECTID"],
+            "searchLayers": [0]
+        },{
+            "id": "13",
+            "guid":"HK_MAP",
+            "type":"dynamic",
+            "name":"searchByBuildingAnno",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services/HK_DATA/HK_MAP/MapServer",
+            "searchFields":["OBJECTID","FontName"],
+            "searchLayers": [4]
+        },
+        {
+            "id": "14",
+            "guid":"HK_MAP",
+            "type":"dynamic",
+            "name":"searchByRailwayAnno",
+            "url":"http://10.13.1.2:6080/arcgis/rest/services/HK_DATA/HK_MAP/MapServer",
+            "searchFields":["OBJECTID"],
+            "searchLayers": [50]
+        }
+    ],
+    "treeData": [
+        {
+            "title": "一级2",
+            "id": 2,
+            "spread": true,
+            "children": [
+                {
+                    "title": "二级2-1",
+                    "id": 5
+                },
+                {
+                    "title": "二级2-2",
+                    "id": 6,
+                    "checked": true
+                }
+            ]
+        },
+        {
+            "title": "一级3",
+            "id": 16,
+            "children": [
+                {
+                    "title": "二级3-1",
+                    "id": 17,
+                    "fixed": true,
+                    "children": [
+                        {
+                            "title": "三级3-1-1",
+                            "id": 18
+                        },
+                        {
+                            "title": "三级3-1-2",
+                            "id": 19
+                        }
+                    ]
+                },
+                {
+                    "title": "二级3-2",
+                    "id": 27,
+                    "children": [
+                        {
+                            "title": "三级3-2-1",
+                            "id": 28
+                        },
+                        {
+                            "title": "三级3-2-2",
+                            "id": 29
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

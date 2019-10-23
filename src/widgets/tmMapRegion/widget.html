@@ -1,0 +1,20 @@
+<div>
+    <form class="layui-form mr-form" lay-filter="mrForm">
+        <span>Indicator:</span>
+        <select name="indexTarget" lay-verify="required" lay-filter="target" class="mr-select" data-dojo-attach-point="indexTarget">
+            <option value=""></option>
+        </select>   
+        <span>Period Type:</span>
+        <select name="dataType" lay-filter="Period" class="mr-select">
+            <option value="M">Month</option>
+            <option value="Y">Year</option>
+            <option value="D">Day</option>
+        </select>  
+        <span>Assessment Period:</span>   
+        <input type="text" class="layui-input mr-timeInput" lay-verify="" autocomplete="off" name="yearValue" data-dojo-attach-point="mrYear" style="display: none">
+        <input type="text" class="layui-input mr-timeInput" lay-verify=""  autocomplete="off" name="monthValue" data-dojo-attach-point="mrMonth" style="display: block">
+        <input type="text" class="layui-input mr-timeInput" lay-verify="" autocomplete="off" name="dateValue" data-dojo-attach-point="mrDate" style="display: none">
+        <button type="button" lay-submit lay-filter="subm" class="layui-btn layui-btn-xs layui-btn-warm iconfont" data-dojo-attach-point="submitBtn">&#xe753;</button>
+        <button type="button" class="layui-btn layui-btn-xs iconfont" data-dojo-attach-event="onclick:_reRender">&#xe62b;</button>
+    </from>
+</div>

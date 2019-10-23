@@ -1,0 +1,35 @@
+<div>
+    <form class="layui-form searchWidget-form textNotSelect" action="">
+            <div class="searchWidget-selectBox">
+                <div class="layui-input select-div" data-dojo-attach-event="onclick:_openSelect"> 
+                    <div class="select-content" data-dojo-attach-point="_selectLayerID">选择搜索图层</div>
+                    <i class="select-icon iconfont" data-dojo-attach-point="_searchIcon">&#xe61a</i>
+                </div>
+                <div class="layui-anim layui-anim-upbit select-tree" data-dojo-attach-point="_searchTree"> 
+                    <div id="layerTree" data-dojo-attach-point="_layerTree">
+
+                    </div>
+                </div>
+            </div>
+            <div class="searchWidget-searchBox">
+                <div style="display:flex">
+                    <input type="text" name="SearchText"required lay-verify="required" placeholder="" autocomplete="off" 
+                    data-dojo-attach-point="_tableInput" 
+                    data-dojo-attach-event="onfocus:_onMouseFocus"
+                    data-dojo-attach-event="blur:_onblur" 
+                    class="layui-input searchWidget-input" >
+                    <button class="layui-btn searchWidget-btn iconfont" lay-submit lay-filter="_goSearch" 
+                    onclick="return false;" >&#xe753</button>
+                </div>
+                <div  class="search-result layui-anim layui-anim-upbit" data-dojo-attach-point="_tableBox" 
+                data-dojo-attach-event="onmouseout:_onMouseOut" style="display: none">
+                </div>
+            </div>
+            
+     </form>
+    <!-- <input type="text" class="input">
+    <div class="search-button iconfont">
+        <div>&#xe679</div>
+    </div> -->
+    <!-- <div class="layui-anim" data-anim="layui-anim-rotate layui-anim-loop">循环动画</div> -->
+</div>

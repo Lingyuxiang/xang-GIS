@@ -1,0 +1,101 @@
+{
+	"poiUrl":{
+						"B5000_BuildingsPoint":"http://10.13.1.2:6080/arcgis/rest/services/HK_DATA/HK_MAP/MapServer/436",
+						"B5000_PlaceLine":"http://10.13.1.2:6080/arcgis/rest/services/HK_DATA/HK_MAP/MapServer/388",
+						"B5000_PlacePoint":"http://10.13.1.2:6080/arcgis/rest/services/HK_DATA/HK_MAP/MapServer/386",
+						"B5000_PlacePoly":"http://10.13.1.2:6080/arcgis/rest/services/HK_DATA/HK_MAP/MapServer/389",
+						"B5000_POIPoint":"http://10.13.1.2:6080/arcgis/rest/services/HK_DATA/HK_MAP/MapServer/385",
+						"DMS_INDEX_1K":"http://10.13.1.2:6080/arcgis/rest/services/HK_DATA/HK_POI/MapServer/2",
+						"DMS_m_slope_shape":"http://10.13.1.2:6080/arcgis/rest/services/HK_DATA/HK_POI/MapServer/3",
+						"B1000_Building":"http://10.13.1.2:6080/arcgis/rest/services/HK_DATA/HK_POI/MapServer/0",
+						"B1000_StreetCentreLines":"http://10.13.1.2:6080/arcgis/rest/services/HK_DATA/HK_POI/MapServer/1",
+						"B1000_UtilityPoint":"http://10.13.1.2:6080/arcgis/rest/services/HK_DATA/HK_MAP/MapServer/134"
+					},
+		"serviceUrl":{
+						"GDHK_SD_F_FEATURE":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_F_FEATURE/MapServer",
+						"GDHK_SD_R_FEATURE":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_R_FEATURE/MapServer",
+						"GDHK_SD_S_FEATURE":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_S_FEATURE/MapServer",
+						"GDHK_SD_DMA":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_DMA/MapServer",
+						"GDHK_SD_SZ":"http://10.13.1.2:6080/arcgis/rest/services//GDHK_SD/GDHK_SD_SZ/MapServer",
+						"GDHK_SD_S_SZ":"http://10.13.1.2:6080/arcgis/rest/services/GDHK_SD/GDHK_SD_S_SZ/MapServer"
+					},
+		"selectType":[{
+					          "en": "Address / Street / Building / Place Name",
+					          "Hans": "地址/街道/建筑物/地方名称",
+					          "Hant": "",
+					          "Value":"baseMap",
+					          "Param": "B5000_BuildingsPoint,B1000_StreetCentreLines,B1000_Building,B5000_PlaceLine,B5000_PlacePoly,B5000_PlacePoint"
+					      },{
+					          "en": "Lamp Post",
+					          "Hans": "路灯柱",
+					          "Hant": "",
+					          "Value":"lampPost",
+					          "Param": "B1000_UtilityPoint"
+					      },{
+					          "en": "Slope Number",
+					          "Hans": "斜坡编号",
+					          "Hant": "",
+					          "Value":"slopeNumber",
+					          "Param": "DMS_m_slope_shape"
+					      },{
+					          "en": "Tile Name",
+					          "Hans": "切片名称",
+					          "Hant": "",
+					          "Value":"tileName",
+					          "Param": "DMS_INDEX_1K"
+					      },{
+					          "en": "Valve Reference Number",
+					          "Hans": "阀门参考编号",
+					          "Hant": "",
+					          "Value":"valveNumber",
+					          "Param": "GDHK_SD_F_FEATURE,GDHK_SD_R_FEATURE,GDHK_SD_S_FEATURE"
+					      },{
+					          "en": "Hydrant",
+					          "Hans": "消防栓",
+					          "Hant": "",
+					          "Value":"hydrant",
+					          "Param": "GDHK_SD_F_FEATURE,GDHK_SD_R_FEATURE,GDHK_SD_S_FEATURE"
+					      },{
+					          "en": "WSD Installation",
+					          "Hans": "水务署构筑物",
+					          "Hant": "",
+					          "Value":"WSDInstallation",
+					          "Param": "GDHK_SD_F_FEATURE,GDHK_SD_R_FEATURE,GDHK_SD_S_FEATURE"
+					      },{
+					          "en": "DMA/PMA",
+					          "Hans": "DMA/PMA",
+					          "Hant": "",
+					          "Value":"DMA/PMA",
+					          "Param": "GDHK_SD_DMA"
+					      },{
+					          "en": "Fresh Water Supply Zone",
+					          "Hans": "食水供水区",
+					          "Hant": "",
+					          "Value":"freshSZ",
+					          "Param": "GDHK_SD_SZ"
+					      },{
+					          "en": "Flushing Water Supply Zone",
+					          "Hans": "冲厕水供水区",
+					          "Hant": "",
+					          "Value":"flushingSZ",
+					          "Param": "GDHK_SD_S_SZ"
+					      },{
+					          "en": "XY Coordinate",
+					          "Hans": "XY 坐标",
+					          "Hant": "",
+					          "Value":"coordinate",
+					          "Param": ""
+					      },{
+					          "en": "Data Logger",
+					          "Hans": "遥感记录仪",
+					          "Hant": "",
+					          "Value":"dataLogger",
+					          "Param": ""
+					      },{
+					          "en": "Noise Logger",
+					          "Hans": "噪声记录仪",
+					          "Hant": "",
+					          "Value":"noiselogger",
+					          "Param": ""
+					      }]
+}
